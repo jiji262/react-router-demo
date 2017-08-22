@@ -9,13 +9,28 @@
 
 .App-header {
   background-color: #222;
-  height: 150px;
+  height: 250px;
   padding: 20px;
   color: white;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.App .nav li {
+  display: inline-block;
+  padding-right: 10px;
+  float: left;
+  text-decoration: none;
+}
+
+.App .nav a {
+  color: #fff;
+}
+
+.App .nav .active {
+  color: pink;
 }
 
 @keyframes App-logo-spin {

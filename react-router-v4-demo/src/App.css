@@ -18,6 +18,27 @@
   font-size: large;
 }
 
+.App ul.nav, ul.users-list {
+display: block;
+text-align: center;
+}
+
+.App .nav li, .users-list li {
+  display: inline-block;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.App .nav a {
+  color: #fff;
+}
+
+.App .nav .active {
+  color: pink;
+}
+
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
